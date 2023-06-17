@@ -1,14 +1,14 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-import { Login } from '../Login/Login'
-import { Navbar } from '../Navbar/Navbar'
-import { Events } from "../Events/Events"
-import { Book } from "../Book/Book"
-import { Signup } from "../Signup/Signup"
-import { Tours } from '../Tours/Tours'
-import { Home } from '../Home/Home'
-import { Footer } from '../Footer/Footer'
+import { Login } from '../Views/Login/Login'
+import { Navbar } from '../components/Navbar/Navbar'
+import { Events } from "../Views/Events/Events"
+import { Book } from "../Views/Book/Book"
+import { Signup } from "../Views/Signup/Signup"
+import { Tours } from '../Views/Tours/Tours'
+import { Home } from '../Views/Home/Home'
+import { Footer } from '../components/Footer/Footer'
 
 
 export const Router = () => {
